@@ -38,3 +38,7 @@ jobs:
 
       - name: Build with dotnet #kompajlira aplikaciju, restoruje pakete
         run: dotnet build --configuration Release
+
+      - name: dotnet test
+        run: dotnet test --configuration Release --no-build
+
