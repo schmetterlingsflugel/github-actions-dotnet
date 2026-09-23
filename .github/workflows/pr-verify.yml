@@ -44,4 +44,3 @@ jobs:
 
       - name: dotnet format
         run: dotnet format -v detailed --verify-no-changes
-        
